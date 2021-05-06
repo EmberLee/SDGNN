@@ -14,11 +14,11 @@ This repository contains the code for our paper [“Killing Me” Is Not a Spoil
 
 ## Overview
 
-We propose a simple spoiler detection model utilizing GNN for sentences structured as dependency tree. The following figure is an illustration of our models.
+Recently, attention-based Spoiler Detection (SD) models that utilize features of review documents achieve state-of-the-art performance on the SD task. However, the attention-based SD models solely rely on individual words that are likely to be spoilers. The following figure is an illustration of two example sentences describing the limit of existing models.
 
 ![](figure/introduction.png)
 
-The following figure is an illustration of our models.
+Therefore We propose a new **S**poiler **D**etection model based on syntax-aware **G**raph **N**eural **N**etworks for leveraging dependency relations between context words in sentences to fully capture the semantics. The following figure is an illustration of our model.
 
 ![](figure/model.png)
 
